@@ -1,0 +1,96 @@
+.d1icon{
+display:flex;  
+height: 50px;  
+background-color:rgb(150, 145, 145) ;
+align-items: center;
+font-weight: 600;
+justify-content: left;
+padding-left: 20px;
+}
+.midpart{
+    height: 90vmin;
+    color: white;
+    /* background-color: rgba(23, 79, 60,0.7); */
+    /* background: radial-gradient(ellipse farthest-corner, #0ad7ee, #155045,#0e6275); */
+    /* background: repeating-radial-gradient(circle , #0ad7ee, #155045,#0e6275);
+     */
+     background: conic-gradient(from 150deg, rgb(16, 47, 60), rgb(36, 72, 78), rgb(75, 137, 131), rgb(165, 59, 121));
+display: flex;
+flex-direction: column;
+justify-content: center;
+justify-items: center;
+align-items: center;
+overflow: hidden;
+}
+.midpt1{
+    display: flex;
+    height: 60px;
+    border: 5px solid white;
+    overflow: hidden;
+    border-radius: 5px;
+
+}
+#surprise-me{
+    width: 70vmin;
+    font-size: 20px;
+    font-weight: 400;
+    border: 2px;
+}
+#create-theme{
+    width: 20vmin;
+background-color: rgb(47, 47, 70);
+color: aliceblue;
+font-size: larger;
+box-shadow: rgba(150, 145, 145,0.8);
+border: 1px solid white ;
+overflow: hidden;
+border-radius: 8px;
+}
+.midpt2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#surprise-label{
+    width: 150px;
+    height: 50px;
+    border: 10px;
+    margin-top: 3px;
+    border-radius: 8px;
+}
+#para2{
+    text-align: center;
+    font-size: 12px;
+}
+.themes{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.theme{
+    height: 38vmin;
+    width: 40vmin;
+    border: 3px solid white;
+    margin: 2px,2px ,2px ,2px ;
+    padding: 2px,2px,2px,2px;
+    /* background-image: url(theme.jpg); */
+    /* background-size: cover; */
+
+
+}
+.image{
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+h4{
+    align-self: flex-start;
+    text-align: left; 
+    padding-left: 260px;
+}
+
+button{
+    cursor: pointer;
+}
